@@ -9,23 +9,23 @@
     "deploy": "rm -rf node_modules/.cache && next build && touch out/.nojekyll && git add out/ && git commit -m \"Deploy to gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
-    "bulma": "^1.0.1",
-    "date-fns": "^3.6.0",
-    "diff": "^5.0.0",
+    "bulma": "^1.0.3",
+    "date-fns": "^4.1.0",
+    "diff": "^7.0.0",
     "gray-matter": "^4.0.2",
-    "next": "^14.2.4",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "next": "^15.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "react-helmet": "^6.1.0",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
     "spdx-license-list": "^6.4.0",
-    "wink-eng-lite-web-model": "^1.8.0",
-    "wink-nlp": "^2.3.0"
+    "wink-eng-lite-web-model": "^1.8.1",
+    "wink-nlp": "^2.3.2"
   },
   "devDependencies": {
-    "@types/node": "^22.0.0",
-    "@types/react": "^18.3.3",
-    "typescript": "^5.5.2"
+    "@types/node": "^22.13.0",
+    "@types/react": "^19.0.8",
+    "typescript": "^5.7.3"
   }
 }
